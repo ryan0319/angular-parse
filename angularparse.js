@@ -1,4 +1,4 @@
-/*! angularparse - v0.1.0 - 2014-04-15
+/*! angularparse - v0.2.0 - 2014-09-26
 * https://github.com/felipesabino/angular-parse
 * Copyright (c) 2014 Felipe Sabino
 * Licensed MIT */
@@ -8,7 +8,7 @@
     '$q', '$timeout', function($q, $timeout) {
       var result;
       result = {
-        newObject: function(name) {
+        "new": function(name) {
           var Obj;
           Obj = Parse.Object.extend(name);
           return new Obj();
@@ -51,7 +51,7 @@
     '$q', '$timeout', function($q, $timeout) {
       var result;
       result = {
-        newObject: function(name) {
+        "new": function(name) {
           var Obj;
           Obj = Parse.Object.extend(name);
           return new Parse.Query(Obj);
