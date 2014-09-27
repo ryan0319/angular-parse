@@ -8,7 +8,7 @@
     '$q', '$timeout', function($q, $timeout) {
       var result;
       result = {
-        newObject: function(name) {
+        "new": function(name) {
           var Obj;
           Obj = Parse.Object.extend(name);
           return new Obj();
@@ -51,7 +51,7 @@
     '$q', '$timeout', function($q, $timeout) {
       var result;
       result = {
-        newObject: function(name) {
+        "new": function(name) {
           var Obj;
           Obj = Parse.Object.extend(name);
           return new Parse.Query(Obj);
