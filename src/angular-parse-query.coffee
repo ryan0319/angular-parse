@@ -3,7 +3,7 @@
 angular.module('angularParse.query', [])
 .service 'parseQuery', ['$q', '$timeout', ($q, $timeout) ->
   result =
-    new: (name) ->
+    newObject: (name) ->
       Obj = Parse.Object.extend(name)
       return new Parse.Query(Obj);
 
