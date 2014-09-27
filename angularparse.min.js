@@ -1,4 +1,4 @@
-/*! angularparse - v0.2.0 - 2014-09-26
+/*! angularparse - v0.2.0 - 2014-09-27
 * https://github.com/felipesabino/angular-parse
 * Copyright (c) 2014 Felipe Sabino
 * Licensed MIT */
